@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap');
+
+:root{
+    --fonte1: "Sedan SC", serif;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+    header{
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding-top: 50px;
+        display: block;
+
+    }
+    header>p{
+        padding-bottom: 50px;
+    }
+    body{
+        
+        min-width: 100vh;
+    }
+    h1{
+        
+        font-family: var(--fonte1);
+        
+        
+
+    }
+    nav{
+        padding-top: -90px;
+        padding-bottom: 50px;
+    }
+        
+    
+    p{
+        text-align: left;
+        font-size: 30px;
+        font-style: italic;
+        font-weight: bold;
+        line-height: 1.5;
+       padding: 30px;
+    
+    }
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    
+}
+A{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.imagem{
+    background-color: rgb(56, 54, 54);
+    color: white;
+    background-attachment: fixed;
+    
+    
+}
+.imagem> p{
+    background-color: rgba(0, 0, 0, 0.37);
+    text-shadow: 1px 1px 0 black;
+    display: inline-block;
+    padding: 10px;
+    
+
+    
+}
+#img1{
+    background-image: url(background001.jpg);
+    background-position: right center;
+    padding: 20px;
+    
+    background-size: cover;
+}
+#img2{
+    background-image: url(background002.jpg);
+    background-position: right center;
+    padding: 20px;
+    background-size: cover;
+    
+
+}
